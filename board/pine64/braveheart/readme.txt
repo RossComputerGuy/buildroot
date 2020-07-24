@@ -2,21 +2,21 @@ Intro
 =====
 
 This default configuration will allow you to start experimenting with the
-buildroot environment for the SoPine. With the current configuration
+buildroot environment for the Braveheart Edition of PinePhone. With the current configuration
 it will bring-up the board, and allow access through the serial console.
 
-SoPINE link:
-https://www.pine64.org/?page_id=1491
+PinePhone link:
+https://www.pine64.org/pinephone/
 
 Wiki link:
-https://openedev.amarulasolutions.com/display/ODWIKI/SoPine
+https://wiki.pine64.org/index.php/PinePhone
 
-This configuration uses U-Boot mainline and kernel mainline.
+This configuration uses PINE64 U-Boot and megi's Linux kernel.
 
 How to build
 ============
 
-    $ make pine64_sopine_defconfig
+    $ make pine64_braveheart_defconfig
 
     $ make
 
@@ -34,5 +34,5 @@ Copy the bootable "sdcard.img" onto an SD card with "dd":
   $ sudo dd if=output/images/sdcard.img of=/dev/sdX
   $ sudo sync
 
-Insert the micro SDcard in your SoPine and power it up. The console
+Insert the micro SDcard in your PinePhone Braveheart Edition and power it up. The console
 is on the serial line, 115200 8N1.
