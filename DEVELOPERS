@@ -2575,6 +2575,10 @@ F:	support/testing/tests/package/test_redis.py
 N:	Trent Piepho <tpiepho@impinj.com>
 F:	package/libp11/
 
+N:	Tristan Ross <rosscomputerguy@protonmail.com>
+F:	board/pine64/braveheart
+F:	configs/pine64_braveheart_defconfig
+
 N:	Tudor Holton <buildroot@tudorholton.com>
 F:	package/openjdk/
 
