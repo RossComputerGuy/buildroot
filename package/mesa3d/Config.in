@@ -1,5 +1,6 @@
 menuconfig BR2_PACKAGE_MESA3D
 	bool "mesa3d"
+	default y
 	depends on BR2_INSTALL_LIBSTDCPP
 	depends on !BR2_STATIC_LIBS
 	depends on BR2_TOOLCHAIN_HAS_SYNC_1

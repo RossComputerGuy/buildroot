@@ -4,7 +4,6 @@ BR2_cortex_a8=y
 
 # System settings
 BR2_TARGET_GENERIC_HOSTNAME="pcduino"
-BR2_TARGET_GENERIC_ISSUE="pcDuino buildroot is ready"
 
 # Serial port config
 BR2_TARGET_GENERIC_GETTY=y
