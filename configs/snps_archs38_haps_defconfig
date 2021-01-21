@@ -4,7 +4,6 @@ BR2_archs38=y
 
 # System
 BR2_TARGET_GENERIC_HOSTNAME="zebu_hs"
-BR2_TARGET_GENERIC_ISSUE="Welcome to the HAPS Development Platform"
 BR2_TARGET_ROOTFS_INITRAMFS=y
 
 # Linux headers same as kernel, a 5.6 series

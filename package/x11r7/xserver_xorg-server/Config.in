@@ -3,6 +3,7 @@ comment "xorg-server needs a glibc or uClibc toolchain"
 
 config BR2_PACKAGE_XSERVER_XORG_SERVER
 	bool "xorg-server"
+	default y
 	depends on BR2_USE_MMU # fork()
 	# xserver uses inb/outb on arm, which aren't available with musl
 	depends on !(BR2_arm && BR2_TOOLCHAIN_USES_MUSL)

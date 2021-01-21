@@ -7,7 +7,6 @@ BR2_PACKAGE_HOST_LINUX_HEADERS_CUSTOM_4_12=y
 
 # System
 BR2_TARGET_GENERIC_HOSTNAME="apf27"
-BR2_TARGET_GENERIC_ISSUE="Welcome to Armadeus development platform !"
 BR2_TARGET_GENERIC_GETTY_PORT="ttymxc0"
 
 # Filesystem

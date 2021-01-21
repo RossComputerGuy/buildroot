@@ -1,5 +1,6 @@
 menuconfig BR2_PACKAGE_XORG7
 	bool "X.org X Window System"
+	default y
 	depends on BR2_USE_WCHAR
 	depends on BR2_TOOLCHAIN_HAS_THREADS
 	depends on !BR2_STATIC_LIBS # dlopen in xlib_libX11
